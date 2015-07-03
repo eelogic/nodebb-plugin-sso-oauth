@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-sso-oauth",
+  "name": "nodebb-plugin-sso-qingcloud",
   "version": "0.2.4",
-  "description": "NodeBB Generic OAuth SSO",
+  "description": "NodeBB plugin for users to login with QingCloud account",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-oauth"
+    "url": "https://github.com/eelogic/nodebb-plugin-sso-qingcloud.git"
   },
   "keywords": [
     "nodebb",
@@ -13,17 +13,18 @@
     "oauth",
     "oauth2",
     "sso",
+    "qingcloud",
     "single sign on",
     "login",
     "registration"
   ],
   "author": {
-    "name": "Julian Lam",
-    "email": "julian@nodebb.org"
+    "name": "ethanliang",
+    "email": "ethan@yunify.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-oauth/issues"
+    "url": "https://github.com/eelogic/nodebb-plugin-sso-qingcloud/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
