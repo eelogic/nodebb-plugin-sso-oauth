@@ -5,7 +5,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eelogic/nodebb-plugin-sso-qingcloud.git"
+    "url": "git+https://github.com/eelogic/nodebb-plugin-sso-qingcloud.git"
   },
   "keywords": [
     "nodebb",
@@ -14,9 +14,7 @@
     "oauth2",
     "sso",
     "qingcloud",
-    "single sign on",
-    "login",
-    "registration"
+    "login"
   ],
   "author": {
     "name": "ethanliang",
@@ -26,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/eelogic/nodebb-plugin-sso-qingcloud/issues"
   },
-  "readme": "",
+  "readme": "A NodeBB SSO OAUTH Commmon Plugin fork, allows user to login with QingCloud user.",
   "readmeFilename": "README.md",
   "dependencies": {
     "passport-oauth": "~1.0.0"
@@ -34,5 +32,9 @@
   "nbbpm": {
     "compatibility": "^0.5.0",
     "index": false
-  }
+  },
+  "homepage": "https://github.com/eelogic/nodebb-plugin-sso-qingcloud#readme",
+  "_id": "nodebb-plugin-sso-qingcloud@0.0.2",
+  "scripts": {},
+  "_from": "nodebb-plugin-sso-qingcloud@*"
 }

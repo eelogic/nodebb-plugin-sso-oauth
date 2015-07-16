@@ -1,7 +1,7 @@
 {
 	"id": "nodebb-plugin-sso-qingcloud",
 	"name": "NodeBB OAuth SSO QingCloud",
-	"description": "NodeBB Plugin that allows users to login with QingCloud account",
+	"description": "NodeBB plugin that allows users to login with QingCloud account",
 	"url": "https://github.com/eelogic/nodebb-plugin-sso-qingcloud.git",
 	"library": "./library.js",
 	"hooks": [
