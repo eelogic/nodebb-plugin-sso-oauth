@@ -13,6 +13,23 @@
   var winston = module.parent.require('winston');
   var async = module.parent.require('async');
 
+  /*
+     constants are configured at project plugin_config path so you can customize it
+     {
+       type: 'oauth2',
+       name: 'youname',
+       scope: 'read',
+       reource_uri: 'https://bbs.yourdomain.com/auth/yourname/callback',
+       oauth2: {
+         authorizationURL: 'http://www.yourdomain.com/oauth2/authorize',
+         tokenURL: 'http://www.yourdomain.com/oauth2/access_token',
+         clientID: '',
+         clientSecret: ''
+       },
+       userRoute: 'http://www.yourdomain.com/oauth2/yourpath',
+       iconClass: 'yourlogo'
+     }
+  */
   var constants = module.parent.require('../plugin_configs/sso_qingcloud_constants');
 
   var configOk = false;
