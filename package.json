@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-sso-qingcloud",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NodeBB plugin for users to login with QingCloud account",
   "main": "library.js",
   "repository": {
